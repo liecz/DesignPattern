@@ -1,7 +1,7 @@
 package 结构型模式.适配器模式;
 
-import 结构型模式.适配器模式.接口适配器模式.ISource;
-import 结构型模式.适配器模式.接口适配器模式.SourceImpl;
+import 结构型模式.适配器模式.接口适配器.ISource;
+import 结构型模式.适配器模式.接口适配器.SourceImpl;
 
 /**
  * Created by liec on 2017-02-23.
