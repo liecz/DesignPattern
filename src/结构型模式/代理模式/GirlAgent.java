@@ -8,8 +8,8 @@ import java.util.Random;
 public class GirlAgent implements Girl {
     private Girl girl;
 
-    public GirlAgent(Girl girl) {
-        this.girl = girl;
+    public GirlAgent() {
+        this.girl = new PrettyGirl();
     }
 
     /*

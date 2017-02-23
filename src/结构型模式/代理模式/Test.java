@@ -5,8 +5,8 @@ package 结构型模式.代理模式;
  */
 public class Test {
     public static void main(String[] args) {
-        Girl g = new PrettyGirl();
-        Girl ga = new GirlAgent(g);
+        Girl ga = new GirlAgent();
         ga.behavior();
+
     }
 }
